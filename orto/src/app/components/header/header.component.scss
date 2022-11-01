@@ -1,0 +1,20 @@
+.responsive__active{
+    display: block!important;
+    height: 80vh;
+    transition: all .3s ease-out;
+}
+
+.responsive__inactive{
+    display: block!important;
+    height: 0px;
+    transition: all .3s ease-out;
+}
+
+nav {
+    position: relative;
+    
+}
+
+.nav__active {
+    z-index: 2;
+}

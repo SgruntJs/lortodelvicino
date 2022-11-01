@@ -1,0 +1,14 @@
+:host {
+  h2 {
+    color: red;
+  }
+  .carousel img {
+    display: block;
+    height: 450px;
+    max-width: 100%;
+    line-height: 1;
+    width: 100% !important; // Add this
+    object-fit: cover;
+    vertical-align: middle;
+  }
+}
